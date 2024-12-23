@@ -13,7 +13,7 @@ public class NoticesController {
 
     @GetMapping("/")
     public String rootEndPoint() {
-        return "Here are the notices details from the DB";
+        return "Hello from the root of the app";
     }
 
 }
