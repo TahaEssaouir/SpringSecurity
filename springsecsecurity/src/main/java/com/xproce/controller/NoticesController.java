@@ -12,7 +12,7 @@ public class NoticesController {
     }
 
     @GetMapping("/")
-    public String getNotices() {
+    public String rootEndPoint() {
         return "Here are the notices details from the DB";
     }
 
