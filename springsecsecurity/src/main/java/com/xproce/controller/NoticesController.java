@@ -11,4 +11,9 @@ public class NoticesController {
         return "Here are the notices details from the DB";
     }
 
+    @GetMapping("/")
+    public String getNotices() {
+        return "Here are the notices details from the DB";
+    }
+
 }
